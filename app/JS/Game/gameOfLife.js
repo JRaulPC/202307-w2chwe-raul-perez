@@ -1,16 +1,16 @@
-const generateGameSet = () => {
-  const initialSet = [];
+const generateGameGrid = () => {
+  const initialEmtpySet = [];
 
   for (let i = 0; i < 3; i++) {
     const row = [];
     for (let j = 0; j < 3; j++) {
-      row.push({ value: undefined, isAlive: false });
+      row.push();
     }
 
-    initialSet.push(row);
+    initialEmtpySet.push(row);
   }
 
-  return initialSet;
+  return initialEmtpySet;
 };
 
-export default generateGameSet;
+export default generateGameGrid;
