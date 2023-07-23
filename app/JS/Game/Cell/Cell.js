@@ -1,5 +1,5 @@
 class Cell {
-  static isAlive;
+  isAlive;
 
   constructor() {
     this.isAlive = Math.random() < 0.25;
