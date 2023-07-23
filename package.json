@@ -32,7 +32,6 @@
   },
   "dependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.22.5",
-    "@types/jest": "^29.5.3",
-    "D": "^1.0.0"
+    "@types/jest": "^29.5.3"
   }
 }
